@@ -1,0 +1,72 @@
+// Carousel
+
+
+.carousel-inner, .carousel-item {
+    height: 100vh;
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption {
+    right: auto;
+    bottom: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    padding-bottom: 0;
+    p {
+        margin-top: 15%;
+        font-size: 18px;   
+    }
+    h1 {
+        margin: 8% auto 10% auto;  
+        font-size: 76px;
+    }
+}
+
+// Products
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+// News and ideas
+
+.news {
+    .btn {
+    display: block;
+    margin: 10% 20%;
+    }
+    .card-title {
+        font-size: 46px;  
+    }
+}
+// Contact
+
+.contact {
+    background-color: #eff2f5;
+    .card {
+        background-color: #eff2f5;
+        border: none;
+    }
+    small {
+        font-size: 9px;   
+    }
+    i {
+        font-size: 16px;
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.5);
+            color: #ffffff;
+        }
+    }
+}
+
+// Footer
+
+footer {
+    background-color: #b9c7d6;   
+}
